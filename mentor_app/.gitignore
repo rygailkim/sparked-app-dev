@@ -8,7 +8,6 @@
 .buildlog/
 .history
 .svn/
-migrate_working_dir/
 
 # IntelliJ related
 *.iml
@@ -45,3 +44,20 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/windows/
+
+# Server related stuff
+server/node_modules/
+server/service_account.json
+server/dist/
+server/.env
+
+# firestore
+.firebaserc
+firebase.json
+firestore.indexes.json
+firestore.rules
+
+# Generate using fireflutter config
+lib/firebase_options.dart
+assets/
